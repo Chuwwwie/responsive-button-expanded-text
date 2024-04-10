@@ -1,0 +1,86 @@
+ .circle {
+
+    width: 100px;
+
+    height: 100px;
+
+    background-color: #3498db;
+
+    border-radius: 50%;
+
+    position: fixed;
+
+    top: 50%;
+
+    left: calc(70% - 70px);
+
+    transform: translate(-50%, -50%);
+
+    transition: transform 0.3s ease-out;
+
+    z-index: 10;
+
+    cursor: pointer;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    font-size: 14px;
+
+    text-align: center;
+
+  }
+
+  .overlay {
+
+    display: none;
+
+    position: fixed;
+
+    width: 100%;
+
+    height: 100%;
+
+    top: 0;
+
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    z-index: 5;
+
+  }
+
+ 
+
+  .expandedText {
+
+    display: none;
+
+    position: fixed;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    color: white;
+
+    font-size: 24px;
+
+    text-align: center;
+
+    opacity: 0;
+
+    transition: opacity 1s ease;
+
+    z-index: 15;
+  }
+
+  
